@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 937.298 s <<< FAILURE! - in TestSuite
+loginSuccesfull(com.uiautomation.test.LoginPageTest)  Time elapsed: 167.217 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //p[text()='Hesabım']' (tried for 180 second(s) with 3000 milliseconds interval)
+	at com.uiautomation.test.LoginPageTest.loginSuccesfull(LoginPageTest.java:43)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //p[text()='Hesabım']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Kerem-MBP', ip: 'fd6f:3459:5168:0:caa:4013:d756:945c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '15.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210222142601, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 3521, moz:profile: /tmp/rust_mozprofileKNHzX6, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.10.25-linuxkit, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: faedd554-fcfc-4941-98f9-669...}
+Session ID: faedd554-fcfc-4941-98f9-6699c9a84a09
+*** Element info: {Using=xpath, value=//p[text()='Hesabım']}
+	at com.uiautomation.test.LoginPageTest.loginSuccesfull(LoginPageTest.java:43)
+
+loginSuccesfull(com.uiautomation.test.LoginPageTest)  Time elapsed: 186.699 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //p[text()='Hesabım']' (tried for 180 second(s) with 3000 milliseconds interval)
+	at com.uiautomation.test.LoginPageTest.loginSuccesfull(LoginPageTest.java:43)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Hesabım']"}
+  (Session info: chrome=89.0.4389.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Kerem-MBP', ip: 'fd6f:3459:5168:0:caa:4013:d756:945c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '15.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.0ADt3I}, goog:chromeOptions: {debuggerAddress: localhost:41061}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: d8db184bef1616a04aaa820b4d3...}
+Session ID: d8db184bef1616a04aaa820b4d3b9fa6
+*** Element info: {Using=xpath, value=//p[text()='Hesabım']}
+	at com.uiautomation.test.LoginPageTest.loginSuccesfull(LoginPageTest.java:43)
+

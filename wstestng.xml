@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BookStore Api Testing">
+    <parameter name="BaseURI" value="http://localhost:8080/" />
+
+    <test name="BookStore Api Testing">
+        <classes>
+            <class name="com.webservice.BookServiceTest">
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="UI test Suite" thread-count="2" parallel="tests">
+
+    <listeners>
+        <listener class-name="utils.TestListener"/>
+    </listeners>
+
+    <test name="Chrome TestNG Test">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="author" value="keremulusoy"/>
+        <classes>
+           <class name="com.uiautomation.test.MainPageTest"/>
+            <class name="com.uiautomation.test.LoginPageTest"/>
+        </classes>
+    </test>
+
+
+    <test name="Firefox TestNG Test">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="author" value="keremulusoy"/>
+        <classes>
+            <class name="com.uiautomation.test.MainPageTest">
+                <methods>
+                    <include name="scrollToBottom" />
+                </methods>
+            </class>
+            <class name="com.uiautomation.test.LoginPageTest"/>
+        </classes>
+    </test>
+
+</suite>

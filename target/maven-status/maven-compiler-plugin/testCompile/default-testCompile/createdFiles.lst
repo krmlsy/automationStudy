@@ -1,0 +1,5 @@
+com/webservice/base/APITestCase.class
+com/uiautomation/test/LoginPageTest.class
+com/uiautomation/base/BaseTest.class
+com/uiautomation/test/MainPageTest.class
+com/webservice/BookServiceTest.class

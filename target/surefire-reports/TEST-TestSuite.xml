@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="937.298" tests="16" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.8.1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.8.1/libexec/conf"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -DsuiteXMLFile=testng.xml"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.8.1/libexec"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/keremulusoy"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="suiteXMLFile" value="testng.xml"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="15.0.2+7"/>
+    <property name="user.name" value="keremulusoy"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/jh/g3m_4pt132jfs4_ytwf45bz80000gn/T/"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="/Users/keremulusoy/IdeaProjects/TrendyolAutomationProjectUI"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/keremulusoy/IdeaProjects/TrendyolAutomationProjectUI"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/keremulusoy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="15.0.2+7"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.8.1/libexec/bin/m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.8.1/libexec/lib/jansi-native"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="scrollToBottom" classname="com.uiautomation.test.MainPageTest" time="363.877"/>
+  <testcase name="scrollToBottom" classname="com.uiautomation.test.MainPageTest" time="5.964"/>
+  <testcase name="EmptyEmailLogin" classname="com.uiautomation.test.LoginPageTest" time="7.578"/>
+  <testcase name="EmptyEmailLogin" classname="com.uiautomation.test.LoginPageTest" time="1.146"/>
+  <testcase name="EmptyPasswordLogin" classname="com.uiautomation.test.LoginPageTest" time="8.675"/>
+  <testcase name="EmptyPasswordLogin" classname="com.uiautomation.test.LoginPageTest" time="6.713"/>
+  <testcase name="WrongEmailLogin" classname="com.uiautomation.test.LoginPageTest" time="10.361"/>
+  <testcase name="WrongEmailLogin" classname="com.uiautomation.test.LoginPageTest" time="4.306"/>
+  <testcase name="WrongPasswordLogin" classname="com.uiautomation.test.LoginPageTest" time="2.291"/>
+  <testcase name="WrongPasswordLogin" classname="com.uiautomation.test.LoginPageTest" time="9.251"/>
+  <testcase name="fullEmptyLogin" classname="com.uiautomation.test.LoginPageTest" time="1.723"/>
+  <testcase name="fullEmptyLogin" classname="com.uiautomation.test.LoginPageTest" time="5.369"/>
+  <testcase name="loginSuccesfull" classname="com.uiautomation.test.LoginPageTest" time="167.217">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //p[text()=&apos;Hesabım&apos;]&apos; (tried for 180 second(s) with 3000 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //p[text()='Hesabım']' (tried for 180 second(s) with 3000 milliseconds interval)
+	at com.uiautomation.test.LoginPageTest.loginSuccesfull(LoginPageTest.java:43)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //p[text()='Hesabım']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Kerem-MBP', ip: 'fd6f:3459:5168:0:caa:4013:d756:945c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '15.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210222142601, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 3521, moz:profile: /tmp/rust_mozprofileKNHzX6, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.10.25-linuxkit, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: faedd554-fcfc-4941-98f9-669...}
+Session ID: faedd554-fcfc-4941-98f9-6699c9a84a09
+*** Element info: {Using=xpath, value=//p[text()='Hesabım']}
+	at com.uiautomation.test.LoginPageTest.loginSuccesfull(LoginPageTest.java:43)
+</failure>
+    <system-err><![CDATA[May 11, 2021 8:03:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginSuccesfull" classname="com.uiautomation.test.LoginPageTest" time="186.699">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //p[text()=&apos;Hesabım&apos;]&apos; (tried for 180 second(s) with 3000 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //p[text()='Hesabım']' (tried for 180 second(s) with 3000 milliseconds interval)
+	at com.uiautomation.test.LoginPageTest.loginSuccesfull(LoginPageTest.java:43)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Hesabım']"}
+  (Session info: chrome=89.0.4389.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Kerem-MBP', ip: 'fd6f:3459:5168:0:caa:4013:d756:945c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '15.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.0ADt3I}, goog:chromeOptions: {debuggerAddress: localhost:41061}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: d8db184bef1616a04aaa820b4d3...}
+Session ID: d8db184bef1616a04aaa820b4d3b9fa6
+*** Element info: {Using=xpath, value=//p[text()='Hesabım']}
+	at com.uiautomation.test.LoginPageTest.loginSuccesfull(LoginPageTest.java:43)
+</failure>
+  </testcase>
+  <testcase name="checkAllCompanyLinks" classname="com.uiautomation.test.MainPageTest" time="241.013"/>
+  <testcase name="checkImgLoadTimes" classname="com.uiautomation.test.MainPageTest" time="48.018"/>
+</testsuite>

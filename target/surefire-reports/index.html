@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-UI_test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">UI test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-UI_test_Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-UI_test_Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-UI_test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-UI_test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-UI_test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-UI_test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-UI_test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods, 2 failed,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-UI_test_Suite" class="hide-methods failed suite-UI_test_Suite"> (hide)</a> <!-- hide-methods failed suite-UI_test_Suite -->
+                      <a href="#" panel-name="suite-UI_test_Suite" class="show-methods failed suite-UI_test_Suite"> (show)</a> <!-- show-methods failed suite-UI_test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-UI_test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_test_Suite" title="com.uiautomation.test.LoginPageTest" class="method navigator-link" hash-for-method="loginSuccesfull(org.testng.TestRunner@533a0924)">loginSuccesfull(org.testng.TestRunner@533a0924)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_test_Suite" title="com.uiautomation.test.LoginPageTest" class="method navigator-link" hash-for-method="loginSuccesfull(org.testng.TestRunner@72c32a81)">loginSuccesfull(org.testng.TestRunner@72c32a81)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-UI_test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-UI_test_Suite" class="hide-methods passed suite-UI_test_Suite"> (hide)</a> <!-- hide-methods passed suite-UI_test_Suite -->
+                      <a href="#" panel-name="suite-UI_test_Suite" class="show-methods passed suite-UI_test_Suite"> (show)</a> <!-- show-methods passed suite-UI_test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-UI_test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_test_Suite" title="com.uiautomation.test.LoginPageTest" class="method navigator-link" hash-for-method="EmptyEmailLogin(org.testng.TestRunner@533a0924)">EmptyEmailLogin(org.testng.TestRunner@533a0924)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_test_Suite" title="com.uiautomation.test.LoginPageTest" class="method navigator-link" hash-for-method="EmptyEmailLogin(org.testng.TestRunner@72c32a81)">EmptyEmailLogin(org.testng.TestRunner@72c32a81)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_test_Suite" title="com.uiautomation.test.LoginPageTest" class="method navigator-link" hash-for-method="EmptyPasswordLogin(org.testng.TestRunner@533a0924)">EmptyPasswordLogin(org.testng.TestRunner@533a0924)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_test_Suite" title="com.uiautomation.test.LoginPageTest" class="method navigator-link" hash-for-method="EmptyPasswordLogin(org.testng.TestRunner@72c32a81)">EmptyPasswordLogin(org.testng.TestRunner@72c32a81)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_test_Suite" title="com.uiautomation.test.LoginPageTest" class="method navigator-link" hash-for-method="WrongEmailLogin(org.testng.TestRunner@533a0924)">WrongEmailLogin(org.testng.TestRunner@533a0924)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_test_Suite" title="com.uiautomation.test.LoginPageTest" class="method navigator-link" hash-for-method="WrongEmailLogin(org.testng.TestRunner@72c32a81)">WrongEmailLogin(org.testng.TestRunner@72c32a81)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_test_Suite" title="com.uiautomation.test.LoginPageTest" class="method navigator-link" hash-for-method="WrongPasswordLogin(org.testng.TestRunner@533a0924)">WrongPasswordLogin(org.testng.TestRunner@533a0924)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_test_Suite" title="com.uiautomation.test.LoginPageTest" class="method navigator-link" hash-for-method="WrongPasswordLogin(org.testng.TestRunner@72c32a81)">WrongPasswordLogin(org.testng.TestRunner@72c32a81)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_test_Suite" title="com.uiautomation.test.MainPageTest" class="method navigator-link" hash-for-method="checkAllCompanyLinks">checkAllCompanyLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_test_Suite" title="com.uiautomation.test.MainPageTest" class="method navigator-link" hash-for-method="checkImgLoadTimes">checkImgLoadTimes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_test_Suite" title="com.uiautomation.test.LoginPageTest" class="method navigator-link" hash-for-method="fullEmptyLogin(org.testng.TestRunner@533a0924)">fullEmptyLogin(org.testng.TestRunner@533a0924)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_test_Suite" title="com.uiautomation.test.LoginPageTest" class="method navigator-link" hash-for-method="fullEmptyLogin(org.testng.TestRunner@72c32a81)">fullEmptyLogin(org.testng.TestRunner@72c32a81)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_test_Suite" title="com.uiautomation.test.MainPageTest" class="method navigator-link" hash-for-method="scrollToBottom(org.testng.TestRunner@533a0924)">scrollToBottom(org.testng.TestRunner@533a0924)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_test_Suite" title="com.uiautomation.test.MainPageTest" class="method navigator-link" hash-for-method="scrollToBottom(org.testng.TestRunner@72c32a81)">scrollToBottom(org.testng.TestRunner@72c32a81)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-UI_test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-UI_test_Suite" class="panel UI_test_Suite">
+          <div class="suite-UI_test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.uiautomation.test.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSuccesfull(org.testng.TestRunner@533a0924)">
+                  </a> <!-- loginSuccesfull(org.testng.TestRunner@533a0924) -->
+                  <span class="method-name">loginSuccesfull</span>
+                  <span class="parameters">(org.testng.TestRunner@533a0924)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //p[text()=&apos;Hesabım&apos;]&apos; (tried for 180 second(s) with 3000 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at utils.AutomationLib.fluentWait(AutomationLib.java:33)
+	at pages.LoginPage.checkLoginIsSuccessfull(LoginPage.java:60)
+	at com.uiautomation.test.LoginPageTest.loginSuccesfull(LoginPageTest.java:43)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //p[text()=&apos;Hesabım&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Kerem-MBP&apos;, ip: &apos;fd6f:3459:5168:0:caa:4013:d756:945c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210222142601, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 3521, moz:profile: /tmp/rust_mozprofileKNHzX6, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.10.25-linuxkit, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: faedd554-fcfc-4941-98f9-669...}
+Session ID: faedd554-fcfc-4941-98f9-6699c9a84a09
+*** Element info: {Using=xpath, value=//p[text()=&apos;Hesabım&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 23 more
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSuccesfull(org.testng.TestRunner@72c32a81)">
+                  </a> <!-- loginSuccesfull(org.testng.TestRunner@72c32a81) -->
+                  <span class="method-name">loginSuccesfull</span>
+                  <span class="parameters">(org.testng.TestRunner@72c32a81)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //p[text()=&apos;Hesabım&apos;]&apos; (tried for 180 second(s) with 3000 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at utils.AutomationLib.fluentWait(AutomationLib.java:33)
+	at pages.LoginPage.checkLoginIsSuccessfull(LoginPage.java:60)
+	at com.uiautomation.test.LoginPageTest.loginSuccesfull(LoginPageTest.java:43)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[text()=&apos;Hesabım&apos;]&quot;}
+  (Session info: chrome=89.0.4389.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Kerem-MBP&apos;, ip: &apos;fd6f:3459:5168:0:caa:4013:d756:945c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.0ADt3I}, goog:chromeOptions: {debuggerAddress: localhost:41061}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: d8db184bef1616a04aaa820b4d3...}
+Session ID: d8db184bef1616a04aaa820b4d3b9fa6
+*** Element info: {Using=xpath, value=//p[text()=&apos;Hesabım&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 23 more
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UI_test_Suite-class-failed -->
+          <div class="suite-UI_test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.uiautomation.test.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmptyEmailLogin(org.testng.TestRunner@533a0924)">
+                  </a> <!-- EmptyEmailLogin(org.testng.TestRunner@533a0924) -->
+                  <span class="method-name">EmptyEmailLogin</span>
+                  <span class="parameters">(org.testng.TestRunner@533a0924)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmptyEmailLogin(org.testng.TestRunner@72c32a81)">
+                  </a> <!-- EmptyEmailLogin(org.testng.TestRunner@72c32a81) -->
+                  <span class="method-name">EmptyEmailLogin</span>
+                  <span class="parameters">(org.testng.TestRunner@72c32a81)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmptyPasswordLogin(org.testng.TestRunner@533a0924)">
+                  </a> <!-- EmptyPasswordLogin(org.testng.TestRunner@533a0924) -->
+                  <span class="method-name">EmptyPasswordLogin</span>
+                  <span class="parameters">(org.testng.TestRunner@533a0924)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmptyPasswordLogin(org.testng.TestRunner@72c32a81)">
+                  </a> <!-- EmptyPasswordLogin(org.testng.TestRunner@72c32a81) -->
+                  <span class="method-name">EmptyPasswordLogin</span>
+                  <span class="parameters">(org.testng.TestRunner@72c32a81)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WrongEmailLogin(org.testng.TestRunner@533a0924)">
+                  </a> <!-- WrongEmailLogin(org.testng.TestRunner@533a0924) -->
+                  <span class="method-name">WrongEmailLogin</span>
+                  <span class="parameters">(org.testng.TestRunner@533a0924)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WrongEmailLogin(org.testng.TestRunner@72c32a81)">
+                  </a> <!-- WrongEmailLogin(org.testng.TestRunner@72c32a81) -->
+                  <span class="method-name">WrongEmailLogin</span>
+                  <span class="parameters">(org.testng.TestRunner@72c32a81)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WrongPasswordLogin(org.testng.TestRunner@533a0924)">
+                  </a> <!-- WrongPasswordLogin(org.testng.TestRunner@533a0924) -->
+                  <span class="method-name">WrongPasswordLogin</span>
+                  <span class="parameters">(org.testng.TestRunner@533a0924)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WrongPasswordLogin(org.testng.TestRunner@72c32a81)">
+                  </a> <!-- WrongPasswordLogin(org.testng.TestRunner@72c32a81) -->
+                  <span class="method-name">WrongPasswordLogin</span>
+                  <span class="parameters">(org.testng.TestRunner@72c32a81)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fullEmptyLogin(org.testng.TestRunner@533a0924)">
+                  </a> <!-- fullEmptyLogin(org.testng.TestRunner@533a0924) -->
+                  <span class="method-name">fullEmptyLogin</span>
+                  <span class="parameters">(org.testng.TestRunner@533a0924)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fullEmptyLogin(org.testng.TestRunner@72c32a81)">
+                  </a> <!-- fullEmptyLogin(org.testng.TestRunner@72c32a81) -->
+                  <span class="method-name">fullEmptyLogin</span>
+                  <span class="parameters">(org.testng.TestRunner@72c32a81)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UI_test_Suite-class-passed -->
+          <div class="suite-UI_test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.uiautomation.test.MainPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAllCompanyLinks">
+                  </a> <!-- checkAllCompanyLinks -->
+                  <span class="method-name">checkAllCompanyLinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkImgLoadTimes">
+                  </a> <!-- checkImgLoadTimes -->
+                  <span class="method-name">checkImgLoadTimes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollToBottom(org.testng.TestRunner@533a0924)">
+                  </a> <!-- scrollToBottom(org.testng.TestRunner@533a0924) -->
+                  <span class="method-name">scrollToBottom</span>
+                  <span class="parameters">(org.testng.TestRunner@533a0924)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollToBottom(org.testng.TestRunner@72c32a81)">
+                  </a> <!-- scrollToBottom(org.testng.TestRunner@72c32a81) -->
+                  <span class="method-name">scrollToBottom</span>
+                  <span class="parameters">(org.testng.TestRunner@72c32a81)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UI_test_Suite-class-passed -->
+        </div> <!-- panel UI_test_Suite -->
+        <div panel-name="test-xml-UI_test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/keremulusoy/IdeaProjects/TrendyolAutomationProjectUI/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;UI test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Chrome TestNG Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;author&quot; value=&quot;keremulusoy&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.uiautomation.test.MainPageTest&quot;/&gt;
+      &lt;class name=&quot;com.uiautomation.test.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome TestNG Test --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Firefox TestNG Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;author&quot; value=&quot;keremulusoy&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.uiautomation.test.MainPageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;scrollToBottom&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.uiautomation.test.MainPageTest --&gt;
+      &lt;class name=&quot;com.uiautomation.test.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Firefox TestNG Test --&gt;
+&lt;/suite&gt; &lt;!-- UI test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-UI_test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for UI test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome TestNG Test (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Firefox TestNG Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-UI_test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for UI test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-UI_test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for UI test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_UI_test_Suite');
+function tableData_UI_test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'scrollToBottom')
+data.setCell(0, 2, 'com.uiautomation.test.MainPageTest')
+data.setCell(0, 3, 413775);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'scrollToBottom')
+data.setCell(1, 2, 'com.uiautomation.test.MainPageTest')
+data.setCell(1, 3, 363707);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkAllCompanyLinks')
+data.setCell(2, 2, 'com.uiautomation.test.MainPageTest')
+data.setCell(2, 3, 240895);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginSuccesfull')
+data.setCell(3, 2, 'com.uiautomation.test.LoginPageTest')
+data.setCell(3, 3, 187847);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginSuccesfull')
+data.setCell(4, 2, 'com.uiautomation.test.LoginPageTest')
+data.setCell(4, 3, 186560);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkImgLoadTimes')
+data.setCell(5, 2, 'com.uiautomation.test.MainPageTest')
+data.setCell(5, 3, 47918);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'fullEmptyLogin')
+data.setCell(6, 2, 'com.uiautomation.test.LoginPageTest')
+data.setCell(6, 3, 10922);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'WrongEmailLogin')
+data.setCell(7, 2, 'com.uiautomation.test.LoginPageTest')
+data.setCell(7, 3, 10729);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'WrongEmailLogin')
+data.setCell(8, 2, 'com.uiautomation.test.LoginPageTest')
+data.setCell(8, 3, 10259);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'WrongPasswordLogin')
+data.setCell(9, 2, 'com.uiautomation.test.LoginPageTest')
+data.setCell(9, 3, 9374);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'WrongPasswordLogin')
+data.setCell(10, 2, 'com.uiautomation.test.LoginPageTest')
+data.setCell(10, 3, 9113);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'EmptyPasswordLogin')
+data.setCell(11, 2, 'com.uiautomation.test.LoginPageTest')
+data.setCell(11, 3, 8593);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'EmptyEmailLogin')
+data.setCell(12, 2, 'com.uiautomation.test.LoginPageTest')
+data.setCell(12, 3, 8131);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'EmptyEmailLogin')
+data.setCell(13, 2, 'com.uiautomation.test.LoginPageTest')
+data.setCell(13, 3, 7469);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'EmptyPasswordLogin')
+data.setCell(14, 2, 'com.uiautomation.test.LoginPageTest')
+data.setCell(14, 3, 6550);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'fullEmptyLogin')
+data.setCell(15, 2, 'com.uiautomation.test.LoginPageTest')
+data.setCell(15, 3, 5157);
+window.suiteTableData['UI_test_Suite']= { tableData: data, tableDiv: 'times-div-UI_test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 25 minutes</span>
+              <div id="times-div-UI_test_Suite">
+              </div> <!-- times-div-UI_test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-UI_test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for UI test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-UI_test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.uiautomation.test.LoginPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">before</span>
+                <br/>
+                <span class="ignored-method-name">before</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.uiautomation.test.MainPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">checkImgLoadTimes</span>
+                <br/>
+                <span class="ignored-method-name">checkAllCompanyLinks</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-UI_test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.uiautomation.test.MainPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">before</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">init(firefox, keremulusoy, org.testng.TestRunner@533a0924)</span>
+                <span class="method-start">178 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">init(chrome, keremulusoy, org.testng.TestRunner@72c32a81)</span>
+                <span class="method-start">178 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scrollToBottom(org.testng.TestRunner@72c32a81)</span>
+                <span class="method-start">986 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scrollToBottom(org.testng.TestRunner@533a0924)</span>
+                <span class="method-start">4432 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">368310 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.uiautomation.test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init(firefox, keremulusoy, org.testng.TestRunner@533a0924)</span>
+                <span class="method-start">369160 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EmptyEmailLogin(org.testng.TestRunner@533a0924)</span>
+                <span class="method-start">372252 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">379831 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init(firefox, keremulusoy, org.testng.TestRunner@533a0924)</span>
+                <span class="method-start">380570 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EmptyPasswordLogin(org.testng.TestRunner@533a0924)</span>
+                <span class="method-start">383108 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">391784 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init(firefox, keremulusoy, org.testng.TestRunner@533a0924)</span>
+                <span class="method-start">392591 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">WrongEmailLogin(org.testng.TestRunner@533a0924)</span>
+                <span class="method-start">395260 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">405621 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init(firefox, keremulusoy, org.testng.TestRunner@533a0924)</span>
+                <span class="method-start">406274 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">WrongPasswordLogin(org.testng.TestRunner@533a0924)</span>
+                <span class="method-start">409118 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.uiautomation.test.MainPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">415082 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.uiautomation.test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init(chrome, keremulusoy, org.testng.TestRunner@72c32a81)</span>
+                <span class="method-start">415143 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EmptyEmailLogin(org.testng.TestRunner@72c32a81)</span>
+                <span class="method-start">416331 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">418622 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init(firefox, keremulusoy, org.testng.TestRunner@533a0924)</span>
+                <span class="method-start">419713 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fullEmptyLogin(org.testng.TestRunner@533a0924)</span>
+                <span class="method-start">423490 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">424637 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init(chrome, keremulusoy, org.testng.TestRunner@72c32a81)</span>
+                <span class="method-start">424698 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EmptyPasswordLogin(org.testng.TestRunner@72c32a81)</span>
+                <span class="method-start">425442 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">432155 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init(chrome, keremulusoy, org.testng.TestRunner@72c32a81)</span>
+                <span class="method-start">432214 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">WrongEmailLogin(org.testng.TestRunner@72c32a81)</span>
+                <span class="method-start">432904 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">434627 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init(firefox, keremulusoy, org.testng.TestRunner@533a0924)</span>
+                <span class="method-start">435712 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginSuccesfull(org.testng.TestRunner@533a0924)</span>
+                <span class="method-start">439494 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">443801 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init(chrome, keremulusoy, org.testng.TestRunner@72c32a81)</span>
+                <span class="method-start">443861 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">WrongPasswordLogin(org.testng.TestRunner@72c32a81)</span>
+                <span class="method-start">444578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">453829 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init(chrome, keremulusoy, org.testng.TestRunner@72c32a81)</span>
+                <span class="method-start">453888 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fullEmptyLogin(org.testng.TestRunner@72c32a81)</span>
+                <span class="method-start">454357 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">459726 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init(chrome, keremulusoy, org.testng.TestRunner@72c32a81)</span>
+                <span class="method-start">459784 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginSuccesfull(org.testng.TestRunner@72c32a81)</span>
+                <span class="method-start">460202 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">627418 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">646900 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.uiautomation.test.MainPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init(chrome, keremulusoy, org.testng.TestRunner@72c32a81)</span>
+                <span class="method-start">646958 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkAllCompanyLinks</span>
+                <span class="method-start">647392 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">888406 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init(chrome, keremulusoy, org.testng.TestRunner@72c32a81)</span>
+                <span class="method-start">888464 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkImgLoadTimes</span>
+                <span class="method-start">888912 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">936931 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="20" passed="14" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-11T16:55:25Z" name="UI test Suite" finished-at="2021-05-11T17:11:02Z" duration-ms="936981">
+    <groups>
+    </groups>
+    <test started-at="2021-05-11T16:55:25Z" name="Firefox TestNG Test" finished-at="2021-05-11T17:05:53Z" duration-ms="627858">
+      <class name="com.uiautomation.test.LoginPageTest">
+        <test-method is-config="true" signature="init(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@12405818]" started-at="2021-05-11T17:01:34Z" name="init" finished-at="2021-05-11T17:01:37Z" duration-ms="3092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[keremulusoy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@533a0924]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="EmptyEmailLogin(org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@12405818]" started-at="2021-05-11T17:01:37Z" name="EmptyEmailLogin" finished-at="2021-05-11T17:01:44Z" duration-ms="7469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@533a0924]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyEmailLogin -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.uiautomation.test.LoginPageTest@12405818]" started-at="2021-05-11T17:01:45Z" name="afterTest" finished-at="2021-05-11T17:01:45Z" duration-ms="738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="init(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@12405818]" started-at="2021-05-11T17:01:45Z" name="init" finished-at="2021-05-11T17:01:48Z" duration-ms="2538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[keremulusoy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@533a0924]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="EmptyPasswordLogin(org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@12405818]" started-at="2021-05-11T17:01:48Z" name="EmptyPasswordLogin" finished-at="2021-05-11T17:01:56Z" duration-ms="8593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@533a0924]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyPasswordLogin -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.uiautomation.test.LoginPageTest@12405818]" started-at="2021-05-11T17:01:57Z" name="afterTest" finished-at="2021-05-11T17:01:57Z" duration-ms="807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="init(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@12405818]" started-at="2021-05-11T17:01:57Z" name="init" finished-at="2021-05-11T17:02:00Z" duration-ms="2669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[keremulusoy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@533a0924]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="WrongEmailLogin(org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@12405818]" started-at="2021-05-11T17:02:00Z" name="WrongEmailLogin" finished-at="2021-05-11T17:02:10Z" duration-ms="10259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@533a0924]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongEmailLogin -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.uiautomation.test.LoginPageTest@12405818]" started-at="2021-05-11T17:02:10Z" name="afterTest" finished-at="2021-05-11T17:02:11Z" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="init(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@12405818]" started-at="2021-05-11T17:02:11Z" name="init" finished-at="2021-05-11T17:02:14Z" duration-ms="2844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[keremulusoy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@533a0924]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="WrongPasswordLogin(org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@12405818]" started-at="2021-05-11T17:02:14Z" name="WrongPasswordLogin" finished-at="2021-05-11T17:02:23Z" duration-ms="9374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@533a0924]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongPasswordLogin -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.uiautomation.test.LoginPageTest@12405818]" started-at="2021-05-11T17:02:23Z" name="afterTest" finished-at="2021-05-11T17:02:24Z" duration-ms="1091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="init(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@12405818]" started-at="2021-05-11T17:02:24Z" name="init" finished-at="2021-05-11T17:02:28Z" duration-ms="3777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[keremulusoy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@533a0924]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="fullEmptyLogin(org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@12405818]" started-at="2021-05-11T17:02:28Z" name="fullEmptyLogin" finished-at="2021-05-11T17:02:39Z" duration-ms="10922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@533a0924]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fullEmptyLogin -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.uiautomation.test.LoginPageTest@12405818]" started-at="2021-05-11T17:02:39Z" name="afterTest" finished-at="2021-05-11T17:02:40Z" duration-ms="1084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="init(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@12405818]" started-at="2021-05-11T17:02:40Z" name="init" finished-at="2021-05-11T17:02:44Z" duration-ms="3782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[keremulusoy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@533a0924]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginSuccesfull(org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@12405818]" started-at="2021-05-11T17:02:44Z" name="loginSuccesfull" finished-at="2021-05-11T17:05:52Z" duration-ms="187847" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@533a0924]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //p[text()='Hesabım']' (tried for 180 second(s) with 3000 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //p[text()='Hesabım']' (tried for 180 second(s) with 3000 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at utils.AutomationLib.fluentWait(AutomationLib.java:33)
+at pages.LoginPage.checkLoginIsSuccessfull(LoginPage.java:60)
+at com.uiautomation.test.LoginPageTest.loginSuccesfull(LoginPageTest.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //p[text()='Hesabım']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Kerem-MBP', ip: 'fd6f:3459:5168:0:caa:4013:d756:945c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '15.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210222142601, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 3521, moz:profile: /tmp/rust_mozprofileKNHzX6, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.10.25-linuxkit, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: faedd554-fcfc-4941-98f9-669...}
+Session ID: faedd554-fcfc-4941-98f9-6699c9a84a09
+*** Element info: {Using=xpath, value=//p[text()='Hesabım']}
+at jdk.internal.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccesfull -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.uiautomation.test.LoginPageTest@12405818]" started-at="2021-05-11T17:05:52Z" name="afterTest" finished-at="2021-05-11T17:05:53Z" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.uiautomation.test.LoginPageTest -->
+      <class name="com.uiautomation.test.MainPageTest">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.uiautomation.test.MainPageTest@6c3f5566]" started-at="2021-05-11T16:55:25Z" name="before" finished-at="2021-05-11T16:55:25Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="init(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.MainPageTest@6c3f5566]" started-at="2021-05-11T16:55:25Z" name="init" finished-at="2021-05-11T16:55:29Z" duration-ms="4254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[keremulusoy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@533a0924]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="scrollToBottom(org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.MainPageTest@6c3f5566]" started-at="2021-05-11T16:55:29Z" name="scrollToBottom" finished-at="2021-05-11T17:01:33Z" duration-ms="363707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@533a0924]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollToBottom -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.uiautomation.test.MainPageTest@6c3f5566]" started-at="2021-05-11T17:01:33Z" name="afterTest" finished-at="2021-05-11T17:01:34Z" duration-ms="850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.uiautomation.test.MainPageTest -->
+    </test> <!-- Firefox TestNG Test -->
+    <test started-at="2021-05-11T16:55:25Z" name="Chrome TestNG Test" finished-at="2021-05-11T17:11:02Z" duration-ms="936981">
+      <class name="com.uiautomation.test.LoginPageTest">
+        <test-method is-config="true" signature="init(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@d6da883]" started-at="2021-05-11T17:02:20Z" name="init" finished-at="2021-05-11T17:02:21Z" duration-ms="1188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[keremulusoy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@72c32a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="EmptyEmailLogin(org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@d6da883]" started-at="2021-05-11T17:02:21Z" name="EmptyEmailLogin" finished-at="2021-05-11T17:02:29Z" duration-ms="8131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@72c32a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyEmailLogin -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.uiautomation.test.LoginPageTest@d6da883]" started-at="2021-05-11T17:02:29Z" name="afterTest" finished-at="2021-05-11T17:02:29Z" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="init(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@d6da883]" started-at="2021-05-11T17:02:29Z" name="init" finished-at="2021-05-11T17:02:30Z" duration-ms="743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[keremulusoy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@72c32a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="EmptyPasswordLogin(org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@d6da883]" started-at="2021-05-11T17:02:30Z" name="EmptyPasswordLogin" finished-at="2021-05-11T17:02:37Z" duration-ms="6550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@72c32a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyPasswordLogin -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.uiautomation.test.LoginPageTest@d6da883]" started-at="2021-05-11T17:02:37Z" name="afterTest" finished-at="2021-05-11T17:02:37Z" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="init(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@d6da883]" started-at="2021-05-11T17:02:37Z" name="init" finished-at="2021-05-11T17:02:38Z" duration-ms="690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[keremulusoy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@72c32a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="WrongEmailLogin(org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@d6da883]" started-at="2021-05-11T17:02:38Z" name="WrongEmailLogin" finished-at="2021-05-11T17:02:48Z" duration-ms="10729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@72c32a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongEmailLogin -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.uiautomation.test.LoginPageTest@d6da883]" started-at="2021-05-11T17:02:49Z" name="afterTest" finished-at="2021-05-11T17:02:49Z" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="init(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@d6da883]" started-at="2021-05-11T17:02:49Z" name="init" finished-at="2021-05-11T17:02:49Z" duration-ms="717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[keremulusoy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@72c32a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="WrongPasswordLogin(org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@d6da883]" started-at="2021-05-11T17:02:49Z" name="WrongPasswordLogin" finished-at="2021-05-11T17:02:58Z" duration-ms="9113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@72c32a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongPasswordLogin -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.uiautomation.test.LoginPageTest@d6da883]" started-at="2021-05-11T17:02:59Z" name="afterTest" finished-at="2021-05-11T17:02:59Z" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="init(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@d6da883]" started-at="2021-05-11T17:02:59Z" name="init" finished-at="2021-05-11T17:02:59Z" duration-ms="469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[keremulusoy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@72c32a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="fullEmptyLogin(org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@d6da883]" started-at="2021-05-11T17:02:59Z" name="fullEmptyLogin" finished-at="2021-05-11T17:03:04Z" duration-ms="5157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@72c32a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fullEmptyLogin -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.uiautomation.test.LoginPageTest@d6da883]" started-at="2021-05-11T17:03:04Z" name="afterTest" finished-at="2021-05-11T17:03:05Z" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="init(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@d6da883]" started-at="2021-05-11T17:03:05Z" name="init" finished-at="2021-05-11T17:03:05Z" duration-ms="418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[keremulusoy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@72c32a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginSuccesfull(org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.LoginPageTest@d6da883]" started-at="2021-05-11T17:03:05Z" name="loginSuccesfull" finished-at="2021-05-11T17:06:12Z" duration-ms="186560" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@72c32a81]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //p[text()='Hesabım']' (tried for 180 second(s) with 3000 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //p[text()='Hesabım']' (tried for 180 second(s) with 3000 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at utils.AutomationLib.fluentWait(AutomationLib.java:33)
+at pages.LoginPage.checkLoginIsSuccessfull(LoginPage.java:60)
+at com.uiautomation.test.LoginPageTest.loginSuccesfull(LoginPageTest.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Hesabım']"}
+  (Session info: chrome=89.0.4389.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Kerem-MBP', ip: 'fd6f:3459:5168:0:caa:4013:d756:945c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '15.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.0ADt3I}, goog:chromeOptions: {debuggerAddress: localhost:41061}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: d8db184bef1616a04aaa820b4d3...}
+Session ID: d8db184bef1616a04aaa820b4d3b9fa6
+*** Element info: {Using=xpath, value=//p[text()='Hesabım']}
+at jdk.internal.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccesfull -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.uiautomation.test.LoginPageTest@d6da883]" started-at="2021-05-11T17:06:12Z" name="afterTest" finished-at="2021-05-11T17:06:12Z" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.uiautomation.test.LoginPageTest -->
+      <class name="com.uiautomation.test.MainPageTest">
+        <test-method is-config="true" signature="init(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.MainPageTest@5cdd8682]" started-at="2021-05-11T16:55:25Z" name="init" finished-at="2021-05-11T16:55:26Z" duration-ms="808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[keremulusoy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@72c32a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="scrollToBottom(org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.MainPageTest@5cdd8682]" started-at="2021-05-11T16:55:26Z" name="scrollToBottom" finished-at="2021-05-11T17:02:20Z" duration-ms="413775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@72c32a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollToBottom -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.uiautomation.test.MainPageTest@5cdd8682]" started-at="2021-05-11T17:02:20Z" name="afterTest" finished-at="2021-05-11T17:02:20Z" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="init(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.MainPageTest@5cdd8682]" started-at="2021-05-11T17:06:12Z" name="init" finished-at="2021-05-11T17:06:12Z" duration-ms="434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[keremulusoy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@72c32a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="checkAllCompanyLinks()[pri:1, instance:com.uiautomation.test.MainPageTest@5cdd8682]" started-at="2021-05-11T17:06:12Z" name="checkAllCompanyLinks" finished-at="2021-05-11T17:10:13Z" duration-ms="240895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAllCompanyLinks -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.uiautomation.test.MainPageTest@5cdd8682]" started-at="2021-05-11T17:10:13Z" name="afterTest" finished-at="2021-05-11T17:10:13Z" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="init(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.uiautomation.test.MainPageTest@5cdd8682]" started-at="2021-05-11T17:10:13Z" name="init" finished-at="2021-05-11T17:10:14Z" duration-ms="448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[keremulusoy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@72c32a81]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="checkImgLoadTimes()[pri:1, instance:com.uiautomation.test.MainPageTest@5cdd8682]" started-at="2021-05-11T17:10:14Z" name="checkImgLoadTimes" finished-at="2021-05-11T17:11:02Z" duration-ms="47918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkImgLoadTimes -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.uiautomation.test.MainPageTest@5cdd8682]" started-at="2021-05-11T17:11:02Z" name="afterTest" finished-at="2021-05-11T17:11:02Z" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.uiautomation.test.MainPageTest -->
+    </test> <!-- Chrome TestNG Test -->
+  </suite> <!-- UI test Suite -->
+</testng-results>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [UI test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utils.TestListener"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Firefox TestNG Test(failed)" verbose="0">
+    <parameter name="author" value="keremulusoy"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.uiautomation.test.LoginPageTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="init"/>
+          <include name="loginSuccesfull" invocation-numbers="0"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- com.uiautomation.test.LoginPageTest -->
+    </classes>
+  </test> <!-- Firefox TestNG Test(failed) -->
+  <test thread-count="2" parallel="tests" name="Chrome TestNG Test(failed)" verbose="0">
+    <parameter name="author" value="keremulusoy"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.uiautomation.test.LoginPageTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="init"/>
+          <include name="loginSuccesfull" invocation-numbers="0"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- com.uiautomation.test.LoginPageTest -->
+    </classes>
+  </test> <!-- Chrome TestNG Test(failed) -->
+</suite> <!-- Failed suite [UI test Suite] -->
